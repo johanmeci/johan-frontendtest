@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    color: #000000;
+}
+
+main {
+    height: 100%;
+}
+
+.sectionCard {
+    display: flex;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+/* Card Styles */
+
+.containerCard {
+    width: 100%;
+    min-width: 320px;
+    max-width: 527px;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #FCFCFC;
+    border: 1px solid #DEDEDE;
+    box-shadow: -1px 7px 8px -5px rgba(0, 0, 0, 0.14);
+}
+
+
+/* Header */
+
+.containerCard .headerCard {
+    display: flex;
+    align-items: center;
+    padding: .7rem 1.4rem;
+}
+
+.containerCard .headerCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.3rem;
+}
+
+.containerCard .headerCard .userInfo span {
+    display: block;
+    text-transform: capitalize;
+}
+
+.containerCard .headerCard .userInfo span.name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.containerCard .headerCard .userInfo span.location {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.containerCard .imgCard img {
+    width: 100%;
+}
+
+
+/* Body */
+
+.containerCard .bodyCard {
+    padding: .7rem 1.4rem;
+}
+
+.containerCard .bodyCard .actionsCard {
+    display: flex;
+}
+
+.containerCard .bodyCard .actionsCard .icon {
+    width: 20px;
+    margin-right: .8rem;
+}
+
+.containerCard .bodyCard .actionsCard .icon.like {
+    cursor: pointer;
+}
+
+
+/* Comments */
+
+.containerCard .bodyCard .commentsCard {
+    margin-top: 1.6rem;
+    height: 160px;
+}
+
+.containerCard .bodyCard .commentsCard .comment {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+}
+
+.containerCard .bodyCard .commentsCard .comment:last-child {
+    margin-bottom: 0;
+}
+
+.containerCard .bodyCard .commentsCard .comment .userName {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+/* Post */
+
+.containerCard .bodyCard .commentPost {
+    background-color: #F1F1F1;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.containerCard .bodyCard .commentPost input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
+
+.containerCard .bodyCard .commentPost button {
+    color: #3D8AFF;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
