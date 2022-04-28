@@ -60,7 +60,7 @@
 
 @media (min-width: 500px) {
     .containerCard .imgCard {
-        min-height: 325px;
+        height: 325px;
     }
 }
 
