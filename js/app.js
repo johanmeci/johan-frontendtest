@@ -1,4 +1,5 @@
-const iconsAction = document.querySelectorAll('.icon');
+const iconsAction = document.querySelectorAll('.icon'); 
+const iconLikeImg = document.querySelector('#iconCardLike'); 
 
 const swiperWrapper = document.querySelector('#swiper-wrapper');
 
@@ -20,6 +21,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     icon.classList.remove('active');
                 } else {
                     icon.classList.add('active');
+                    iconLikeImg.classList.add('active');
+                    setTimeout(() => {
+                        iconLikeImg.classList.remove('active');
+                    }, 1300);
                 }
             }
         });

@@ -79,11 +79,29 @@ main {
 
 .containerCard .imgCard {
     width: 100%;
-    height: 300px;
+    /* height: 325px; */
+    min-height: 325px;
 }
 
 .containerCard .imgCard img {
     width: 100%;
+}
+
+.containerCard .imgCard .iconCardLike {
+    fill: transparent;
+    stroke: transparent;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: calc(calc(100% - 70px) / 2);
+    left: calc(calc(100% - 70px) / 2);
+    z-index: 2;
+}
+
+.containerCard .imgCard .iconCardLike.active {
+    animation: bounceIconAnimation ease .3s;
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
 }
 
 /* Body Section */
@@ -132,7 +150,7 @@ main {
 /* Comments */
 
 .containerCard .bodyCard .commentsCard {
-    margin-top: 1.6rem;
+    margin-top: .5rem;
     height: 160px;
     overflow-y: scroll;
     padding-bottom: .5rem;
