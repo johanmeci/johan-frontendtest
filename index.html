@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -21,8 +22,15 @@
                         <span class="location">san francisco, california</span>
                     </div>
                 </div>
-                <div class="imgCard">
-                    <img src="https://i.picsum.photos/id/12/2500/1667.jpg?hmac=Pe3284luVre9ZqNzv1jMFpLihFI6lwq7TPgMSsNXw2w" alt="img card">
+                <div class="imgCard swiper">
+                    <div class="swiper-wrapper" id="swiper-wrapper">
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
                 <div class="bodyCard">
                     <div class="actionsCard">
@@ -48,6 +56,7 @@
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
