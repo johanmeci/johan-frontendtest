@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #FCFCFC;
+    --border-color: #DEDEDE;
+    --btn-txt-color: #3D8AFF;
+    --gray-color: #F1F1F1;
+    --red-color: #ED4956;
+    --white-color: #FFFFFF;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+main {
+    height: 100%;
+}
